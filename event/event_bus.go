@@ -4,7 +4,6 @@ type EventName string
 
 type Event interface {
 	GetPayload() map[string]interface{}
-	SetPayload(payload map[string]interface{})
 }
 
 type EventBus interface {
